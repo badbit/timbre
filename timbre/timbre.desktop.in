@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Timbre
+_Comment=Timbre application
+Categories=GNOME;Utility;
+Exec=timbre
+Icon=timbre
+Terminal=false
+Type=Application
