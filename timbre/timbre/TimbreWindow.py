@@ -16,7 +16,7 @@ from timbre.PreferencesTimbreDialog import PreferencesTimbreDialog
 # See timbre_lib.Window.py for more details about how this class works
 class TimbreWindow(Window):
     __gtype_name__ = "TimbreWindow"
-    
+
     def finish_initializing(self, builder): # pylint: disable=E1002
         """Set up the main window"""
         super(TimbreWindow, self).finish_initializing(builder)
@@ -26,3 +26,6 @@ class TimbreWindow(Window):
 
         # Code for other initialization actions should be added here.
 
+        liststore1 = Gtk.ListStore(str, str)
+
+        ListStore = Gtk.ListStore("Animal Collective", "7:10")
