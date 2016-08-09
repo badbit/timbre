@@ -28,4 +28,4 @@ class TimbreWindow(Window):
 
         liststore1 = Gtk.ListStore(str, str)
 
-        ListStore = Gtk.ListStore("Animal Collective", "7:10")
+        liststore1.append(["Animal Collective", "7:10"])
