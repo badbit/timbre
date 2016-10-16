@@ -1,0 +1,10 @@
+# m h  dom mon dow   command
+9  7  * * 1-5 python /home/patria/timbre.py
+38 8  * * 1-5 python /home/patria/timbre.py
+59 8  * * 1-5 python /home/patria/timbre.py
+28 10 * * 1-5 python /home/patria/timbre.py
+28 11 * * 1-5 python /home/patria/timbre.py
+27 12 * * 1-5 python /home/patria/timbre.py
+0  13 * * 1-5 python /home/patria/timbre.py
+27 14 * * 1-5 python /home/patria/timbre.py
+
